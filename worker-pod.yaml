@@ -4,10 +4,8 @@ metadata:
   name: worker
   labels:
     name: worker-pod
-    app: worker-app
+    app: voting-app
 spec:
   containers:
     - name: worker-container
       image: dockersamples/examplevotingapp_worker
-      ports:
-        - containerPort: 80

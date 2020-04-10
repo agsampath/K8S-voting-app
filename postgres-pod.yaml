@@ -4,10 +4,10 @@ metadata:
   name: db
   labels:
     name: postgres-pod
-    app: db-app
+    app: voting-app
 spec:
   containers:
-    - name: db-container
+    - name: postgres
       image: postgres:9.4
       env:
         - name: POSTGRES_PASSWORD

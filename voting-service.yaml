@@ -4,7 +4,7 @@ metadata:
   name: voting-service
   labels:
     name: voting-service
-    app: frontend
+    app: voting-app
 spec:
   type: NodePort
   selector:
